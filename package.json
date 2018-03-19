@@ -1,7 +1,6 @@
 {
   "name": "tdddemo",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "express": "^4.16.3",
@@ -12,9 +11,17 @@
     "chai-http": "^3.0.0"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha"
+    "test": "mocha"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.emmes.com/vvasudevan/nodeTDDdemo.git"
+  },
+  "description": ""
 }
